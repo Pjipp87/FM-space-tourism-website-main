@@ -1,0 +1,68 @@
+body {
+  background-image: url("/assets/home/background-home-desktop.jpg");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.btn-expolore {
+  position: absolute;
+  left: 1001px;
+  top: 495px;
+  width: 274px;
+  height: 274px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.btn-expolore > p {
+  padding: 0;
+  margin: 0;
+  color: #d8d8d8;
+  font-size: 28px;
+  font-family: "Barlow Condensed";
+  letter-spacing: 4.75pt;
+}
+
+.container-heading-main {
+  position: absolute;
+  left: 116px;
+  top: 387px;
+  width: 450px;
+  height: 382px;
+  color: #ffffff;
+}
+
+.container-heading-main > h1 {
+  letter-spacing: normal;
+  font-size: 150px;
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+
+.container-heading-main > h5 {
+  font-size: 28px;
+  font-family: "Barlow Condensed";
+  color: #d0d6f9;
+  letter-spacing: 4.72px;
+}
