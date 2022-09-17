@@ -55,8 +55,6 @@
 
 .container-heading-main {
   position: absolute;
-  /*   left: 116px;
-  top: 387px; */
   top: 43%;
   left: 11%;
   width: 450px;
@@ -71,6 +69,7 @@
   font-style: normal;
   font-weight: normal;
   text-align: left;
+  line-height: 172px;
   margin: 2rem 0;
 }
 
@@ -79,10 +78,49 @@
   font-family: "Barlow Condensed";
   color: #d0d6f9;
   letter-spacing: 4.72px;
+
+  font-weight: lighter;
 }
 
 .container-heading-main > p {
   font-size: 18px;
   font-family: "Barlow";
   line-height: 32px;
+}
+
+/* TODO: Small Laptop */
+
+@media screen and (max-width: 1270px) {
+  .btn-explorer-outer {
+    width: 300px;
+    height: 300px;
+
+    top: 50%;
+  }
+
+  .btn-explorer {
+    width: 200px;
+    height: 200px;
+  }
+
+  .container-heading-main {
+    width: 300px;
+    height: 382px;
+  }
+
+  .container-heading-main > h1 {
+    font-size: 80px;
+
+    line-height: 80px;
+  }
+
+  .container-heading-main > h5 {
+    font-size: 16px;
+  }
+
+  .container-heading-main > p {
+    font-size: 15px;
+
+    line-height: 25px;
+  }
 }
