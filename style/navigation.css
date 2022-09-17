@@ -8,9 +8,9 @@ body {
 
 .container-navigation {
   position: absolute;
-  margin-left: 55px;
+  margin-left: 4%;
   top: 55px;
-  right: 0;
+  right: 0px;
   width: 96%;
   display: flex;
   justify-content: space-between;
@@ -100,4 +100,67 @@ body {
 /* TODO: Tablet */
 
 @media screen and (max-width: 768px) {
+  .container-navigation {
+    padding-left: 5%;
+    top: 0px;
+
+    right: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-line {
+    display: none;
+  }
+
+  .container-links {
+    width: 450px;
+  }
+
+  .container-links > .links > li > a > span {
+    display: none;
+  }
+
+  .nav-element {
+    font-size: 15px;
+  }
+
+  .links {
+    margin: 0 10%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .container-navigation {
+    padding-left: 5%;
+    top: 0px;
+
+    right: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-line {
+    display: none;
+  }
+
+  .container-links {
+    width: 450px;
+  }
+
+  .container-links > .links > li > a > span {
+    display: none;
+  }
+
+  .nav-element {
+    font-size: 15px;
+  }
+
+  .links {
+    margin: 0 5%;
+  }
 }

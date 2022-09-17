@@ -128,4 +128,8 @@
 /* TODO: Tablet*/
 
 @media screen and (max-width: 768px) {
+  .btn-explorer-outer,
+  .container-heading-main {
+    display: none;
+  }
 }
