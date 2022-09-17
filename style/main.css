@@ -124,3 +124,8 @@
     line-height: 25px;
   }
 }
+
+/* TODO: Tablet*/
+
+@media screen and (max-width: 768px) {
+}

@@ -96,3 +96,8 @@ body {
     margin-right: 5px;
   }
 }
+
+/* TODO: Tablet */
+
+@media screen and (max-width: 768px) {
+}
