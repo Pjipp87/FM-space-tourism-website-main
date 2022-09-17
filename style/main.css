@@ -92,7 +92,7 @@ body {
   position: absolute;
   margin-left: 112px;
   /*width: 473px;*/
-  width: 34%;
+  width: 35%;
   height: 1px;
   background-color: #979797;
   z-index: 5;
@@ -127,7 +127,7 @@ body {
 
 .container-links > .links > li > a > span {
   font-weight: bold;
-  padding-right: 14px;
+  margin-right: 5px;
 }
 
 .nav-element {
