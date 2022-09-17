@@ -63,10 +63,12 @@ body {
   font-size: 28px;
   font-family: "Barlow Condensed";
   letter-spacing: 4.75pt;
+  cursor: default;
 }
 
 .btn-explorer-outer:hover {
   background-color: hsla(0, 0%, 49%, 0.5);
+  cursor: pointer;
 }
 
 .container-heading-main {
