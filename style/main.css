@@ -1,8 +1,5 @@
 .btn-explorer-outer {
   position: absolute;
-  /*left: 1001px;
-  top: 495px;
-  */
   pointer-events: none;
   left: 65%;
   top: 40%;
@@ -68,7 +65,7 @@
   font-family: "Bellefair";
   font-style: normal;
   font-weight: normal;
-  text-align: left;
+
   line-height: 172px;
   margin: 2rem 0;
 }
@@ -95,7 +92,7 @@
     width: 300px;
     height: 300px;
 
-    top: 50%;
+    top: 45%;
   }
 
   .btn-explorer {
@@ -104,6 +101,7 @@
   }
 
   .container-heading-main {
+    top: 35%;
     width: 300px;
     height: 382px;
   }
@@ -127,9 +125,47 @@
 
 /* TODO: Tablet*/
 
-@media screen and (max-width: 768px) {
-  .btn-explorer-outer,
+@media screen and (max-width: 912px) {
+  body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
   .container-heading-main {
-    display: none;
+    position: initial;
+    margin-top: 202px;
+    width: 450px;
+    height: 334px;
+    text-align: center;
+  }
+
+  .container-heading-main > h1 {
+    font-size: 150px;
+    line-height: 150px;
+  }
+
+  .container-heading-main > h5 {
+    font-size: 20px;
+    letter-spacing: 3.38pt;
+  }
+
+  .container-heading-main > p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .btn-explorer-outer {
+    position: initial;
+    pointer-events: none;
+    margin-top: 156px;
+    margin-bottom: 90px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .btn-explorer {
+    width: 242px;
+    height: 242px;
   }
 }

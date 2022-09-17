@@ -1,11 +1,3 @@
-body {
-  background-image: url("/assets/home/background-home-desktop.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-}
-
 .container-navigation {
   position: absolute;
   margin-left: 4%;
@@ -97,9 +89,22 @@ body {
   }
 }
 
+@media screen and (min-width: 769px) {
+  body {
+    background-image: url("/assets/home/background-home-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 /* TODO: Tablet */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 912px) {
+  body {
+    background-image: url("/assets/home/background-home-tablet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .container-navigation {
     padding-left: 5%;
     top: 0px;
@@ -133,10 +138,15 @@ body {
 }
 
 @media screen and (max-width: 475px) {
+  body {
+    background-image: url("/assets/home/background-home-tablet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   .container-navigation {
     padding-left: 5%;
     top: 0px;
-
     right: 0px;
     width: 100%;
     display: flex;
@@ -162,6 +172,16 @@ body {
 
   .links {
     margin: 0 5%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    background-image: url("/assets/home/background-home-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
   }
 }
 
