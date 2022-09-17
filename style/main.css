@@ -18,8 +18,10 @@ body {
 
 .btn-expolore {
   position: absolute;
-  left: 1001px;
-  top: 495px;
+  /* left: 1001px;
+  top: 495px; */
+  left: 70%;
+  top: 55%;
   width: 274px;
   height: 274px;
   display: flex;
@@ -44,8 +46,10 @@ body {
 
 .container-heading-main {
   position: absolute;
-  left: 116px;
-  top: 387px;
+  /*   left: 116px;
+  top: 387px; */
+  top: 43%;
+  left: 11%;
   width: 450px;
   height: 382px;
   color: #ffffff;
