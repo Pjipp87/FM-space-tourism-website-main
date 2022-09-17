@@ -67,7 +67,7 @@ body {
 }
 
 .btn-explorer-outer:hover {
-  background-color: hsla(0, 0%, 49%, 0.5);
+  background-color: hsla(0, 0%, 49%, 0.8);
   cursor: pointer;
 }
 
@@ -164,8 +164,13 @@ body {
 .nav-element {
   height: 100%;
   display: flex;
+  pointer-events: none;
   align-items: center;
   border-bottom: 3px solid transparent;
+}
+
+.nav-element > a {
+  pointer-events: auto;
 }
 
 .nav-element:hover {
