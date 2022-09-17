@@ -86,7 +86,8 @@ body {
 .nav-line {
   position: absolute;
   margin-left: 112px;
-  width: 473px;
+  /*width: 473px;*/
+  width: 34%;
   height: 1px;
   background-color: #979797;
   z-index: 5;
