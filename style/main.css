@@ -1,14 +1,4 @@
-body {
-  background-image: url("/assets/home/background-home-desktop.jpg");
-  background-size: cover;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
+* {
   padding: 0;
   margin: 0;
   font-size: 100%;
@@ -16,6 +6,14 @@ p {
   margin-block-start: 0;
   margin-block-end: 0;
   line-height: 100%;
+  text-decoration: none;
+  font-size: 16px;
+  color: inherit;
+}
+
+body {
+  background-image: url("/assets/home/background-home-desktop.jpg");
+  background-size: cover;
 }
 
 .btn-expolore {
@@ -74,4 +72,50 @@ p {
   font-size: 18px;
   font-family: "Barlow";
   line-height: 32px;
+}
+
+.container-navigation {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-line {
+  position: absolute;
+  margin-left: 112px;
+  width: 473px;
+  height: 1px;
+  background-color: #979797;
+  z-index: 5;
+}
+
+.container-links {
+  background-color: hsla(0, 0%, 100%, 0.04);
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  width: 830px;
+  height: 96px;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Barlow Condensed";
+  color: #ffffff;
+  letter-spacing: 2.7px;
+}
+
+.links {
+  list-style: none;
+  width: 100%;
+  margin-left: 123px;
+  margin-right: 165px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-links > .links > li > a > span {
+  font-weight: bold;
+  padding-right: 14px;
 }
