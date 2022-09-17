@@ -36,7 +36,7 @@ body {
 .btn-expolore > p {
   padding: 0;
   margin: 0;
-  color: #d8d8d8;
+  color: #0b0d17;
   font-size: 28px;
   font-family: "Barlow Condensed";
   letter-spacing: 4.75pt;
@@ -113,9 +113,30 @@ body {
   margin-right: 165px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 .container-links > .links > li > a > span {
   font-weight: bold;
   padding-right: 14px;
+}
+
+.nav-element {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-element:hover {
+  border-bottom: 3px solid #979797;
+}
+
+.active {
+  border-bottom: 3px solid #ffffff;
+}
+
+.active:hover {
+  border-bottom: 3px solid #ffffff;
 }
