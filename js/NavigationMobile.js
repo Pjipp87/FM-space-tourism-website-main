@@ -1,12 +1,5 @@
 $(document).ready(function () {
-  /*   $(".container-links").animate(
-    {
-      display: "toggle",
-    },
-    "fast"
-  );
- */
-  $("#MenuBtn").click(function () {
+  $(".nav-element").click(() => {
     $(".container-links").animate(
       {
         width: "toggle",
@@ -15,5 +8,21 @@ $(document).ready(function () {
       "fast"
     );
     $("img", this).toggle();
+  });
+
+  $("#MenuBtn").click(() => {
+    $(".container-links").animate(
+      {
+        width: "toggle",
+        opacity: "toggle",
+      },
+      "fast"
+    );
+    $(".nav-menu-logo", this).toggle();
+    $(".btn-explorer-outer").toggleClass("btn-explorer-outer-pressed");
+  });
+
+  $(".btn-explorer").click(() => {
+    $(".btn-explorer-outer").toggleClass("btn-explorer-outer-pressed");
   });
 });

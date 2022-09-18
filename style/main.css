@@ -17,6 +17,10 @@
   z-index: 3;
 }
 
+#MenuBtn {
+  display: none;
+}
+
 .btn-explorer {
   position: absolute;
   pointer-events: auto;
@@ -43,11 +47,6 @@
   font-family: "Barlow Condensed";
   letter-spacing: 4.75pt;
   cursor: default;
-}
-
-.btn-explorer-outer:hover {
-  background-color: hsla(0, 0%, 49%, 0.8);
-  cursor: pointer;
 }
 
 .container-heading-main {
@@ -123,6 +122,13 @@
   }
 }
 
+@media screen and (min-width: 913px) {
+  .btn-explorer-outer:hover {
+    background-color: hsla(0, 0%, 49%, 0.8);
+    cursor: pointer;
+  }
+}
+
 /* TODO: Tablet*/
 
 @media screen and (max-width: 912px) {
@@ -168,6 +174,10 @@
     width: 242px;
     height: 242px;
   }
+  .btn-explorer-outer-pressed {
+    background-color: hsla(0, 0%, 49%, 0.8);
+    cursor: pointer;
+  }
 }
 
 /* TODO: Mobile */
@@ -204,20 +214,27 @@
 
   .btn-explorer-outer {
     position: initial;
-    pointer-events: none;
+    pointer-events: initial;
     margin-top: 131px;
     margin-bottom: 48px;
     width: 200px;
     height: 200px;
+    z-index: 5;
   }
 
   .btn-explorer {
     width: 150px;
     height: 150px;
+    pointer-events: initial;
   }
 
   .btn-explorer > p {
     font-size: 20;
     letter-spacing: 1.25pt;
+  }
+
+  .btn-explorer-outer-pressed {
+    background-color: hsla(0, 0%, 49%, 0.8);
+    cursor: pointer;
   }
 }
