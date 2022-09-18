@@ -127,6 +127,9 @@
 
 @media screen and (max-width: 912px) {
   body {
+    background-image: url("/assets/home/background-home-tablet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -178,6 +181,7 @@
 
 @media screen and (max-width: 425px) {
   body {
+    background-image: url("/assets/home/background-home-mobile.jpg");
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -236,5 +240,21 @@
   .btn-explorer-outer-pressed {
     background-color: hsla(0, 0%, 49%, 0.8);
     cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    background-image: url("/assets/home/background-home-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  body {
+    background-image: url("/assets/home/background-home-tablet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

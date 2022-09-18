@@ -93,26 +93,12 @@
   }
 }
 
-@media screen and (min-width: 769px) {
-  body {
-    background-image: url("/assets/home/background-home-desktop.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
-
 /* TODO: Tablet */
 
 @media screen and (max-width: 912px) {
-  body {
-    background-image: url("/assets/home/background-home-tablet.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
   .container-navigation {
     padding-left: 5%;
     top: 0px;
-
     right: 0px;
     width: 100%;
     display: flex;
@@ -142,12 +128,6 @@
 }
 
 @media screen and (max-width: 475px) {
-  body {
-    background-image: url("/assets/home/background-home-tablet.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
   .container-navigation {
     padding-left: 5%;
     top: 0px;
@@ -184,9 +164,6 @@
 @media screen and (max-width: 425px) {
   #MenuBtn {
     display: block;
-  }
-  body {
-    background-image: url("/assets/home/background-home-mobile.jpg");
   }
 
   .container-navigation {

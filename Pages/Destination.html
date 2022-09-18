@@ -10,13 +10,14 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="/style/css_reset.css" />
-    <link rel="stylesheet" href="/style/main.css" />
+    <link rel="stylesheet" href="/style/Crew.css" />
     <link rel="stylesheet" href="/style/Webfonts/Barlow_Condensed.css" />
     <link rel="stylesheet" href="/style/Webfonts/Barlow.css" />
     <link rel="stylesheet" href="/style/Webfonts/Bellefair.css" />
     <link rel="stylesheet" href="/style/navigation.css" />
     <script src="/js/jquery-3.6.1.min.js"></script>
     <script src="/js/NavigationMobile.js"></script>
+    <script src="/js/destination.js"></script>
     <title>Space Tourismus</title>
   </head>
   <body>
@@ -26,7 +27,7 @@
       <div class="nav-line"></div>
       <div class="container-links">
         <ul class="links">
-          <li class="nav-element active">
+          <li class="nav-element">
             <a href="index.html"><span>00</span>HOME</a>
           </li>
 
@@ -34,7 +35,7 @@
             <a href="/Pages/Destination.html"> <span>01</span>DESTINATION </a>
           </li>
 
-          <li class="nav-element">
+          <li class="nav-element active">
             <a href="/Pages/Crew.html"><span>02</span>CREW</a>
           </li>
 
@@ -58,19 +59,23 @@
       </div>
     </nav>
 
-    <main class="container-heading-main">
-      <h5>SO, YOU WANT TO TRAVEL TO</h5>
-      <h1>SPACE</h1>
-      <p>
-        Let’s face it; if you want to go to space, you might as well genuinely
-        go to outer space and not hover kind of on the edge of it. Well sit
-        back, and relax because we’ll give you a truly out of this world
-        experience!
-      </p>
+    <main class="Container-destination-Main">
+      <h3><span>00</span>PICK YOUR DESTINATION</h3>
+      <img id="imagePlanet" class="image-planet" />
     </main>
-    <aside class="btn-explorer-outer" id="ExploreBtn">
-      <div class="btn-explorer" id="ExploreBtn2">
-        <p>EXOPLORE</p>
+    <aside class="Container-destination-Aside">
+      <ul class="destinationMenu" id="destinationMenu"></ul>
+      <h1 class="planetName" id="planetName"></h1>
+      <p class="planetDescription" id="planetDescription"></p>
+      <div class="planet-Data">
+        <div class="planet-Data-col">
+          <p class="planet-distance-Heading">AVG. DISTANCE</p>
+          <p class="planet-distance" id="planet-distance"></p>
+        </div>
+        <div class="planet-Data-col">
+          <p class="planet-traveltime-Heading">AVG. DISTANCE</p>
+          <p class="planet-taveltime" id="planet-taveltime"></p>
+        </div>
       </div>
     </aside>
   </body>
