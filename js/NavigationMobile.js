@@ -18,6 +18,7 @@ $(document).ready(function () {
       },
       "fast"
     );
+    $(".destinationMenu").toggleClass("z_null");
     $(".btn-explorer-outer").toggleClass("z_null");
     $(".nav-menu-logo", this).toggle();
   });
