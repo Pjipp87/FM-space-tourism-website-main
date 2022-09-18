@@ -64,5 +64,58 @@ body {
   border-bottom: 3px solid #979797;
 }
 
+.Container-destination-Aside {
+  top: 187px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .planetName {
+  margin-top: 20px;
+  font-family: "Bellefair";
+  font-weight: lighter;
+  font-size: 56px;
+  text-transform: uppercase;
+  width: 187px;
+}
+
+.planetDescription {
+  margin-top: 1px;
+  width: 327px;
+  font-family: "Barlow";
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25pt;
+  color: #d0d6f9;
+}
+
+.destination-line {
+  background-color: #383b4b;
+  width: 327px;
+  height: 1px;
+  margin: 32px 0;
+}
+
+.planet-data-Heading {
+  font-family: "Barlow Condensed";
+  font-size: 14;
+  letter-spacing: 2.36pt;
+  margin-bottom: 12px;
+  color: #d0d6f9;
+}
+
+.planet-distance,
+.planet-taveltime {
+  font-family: "Bellefair";
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.planet-Data-col {
+  margin-bottom: 32px;
+}
+
+.planet-Data-col:last-child {
+  margin-bottom: 58px;
 }
