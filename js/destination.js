@@ -55,13 +55,29 @@ $(document).ready(() => {
   $("#planet-taveltime").text(dest.travel);
 
   destination.forEach((el, index) => {
-    $("#destinationMenu").append(
-      "<li class='destinationMenuBtn' data='" + index + "'>" + el.name + "</li>"
-    );
+    if (index == 0) {
+      $("#destinationMenu").append(
+        "<li class='destinationMenuBtn active-planet' data='" +
+          index +
+          "'>" +
+          el.name +
+          "</li>"
+      );
+    } else {
+      $("#destinationMenu").append(
+        "<li class='destinationMenuBtn' data='" +
+          index +
+          "'>" +
+          el.name +
+          "</li>"
+      );
+    }
   });
 
   $(".destinationMenuBtn").click(function () {
+    $(".destinationMenuBtn").removeClass(" active-planet");
     dest = destination[$(this).attr("data")];
+    $(this).addClass(" active-planet");
     $("#imagePlanet").attr("src", dest.images.webp);
     $("#planetName").text(dest.name);
     $("#planetDescription").text(dest.description);

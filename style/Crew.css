@@ -1,1 +1,60 @@
 /* TODO: Mobile view */
+
+body {
+  background-image: url("/assets/destination/background-destination-mobile.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.Container-destination-Main {
+  margin-top: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Container-destination-Main > h3 {
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  letter-spacing: 2.7pt;
+  color: white;
+  font-weight: lighter;
+}
+
+.Container-destination-Main > h3 > span {
+  font-family: "Barlow Condensed";
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.25);
+  margin-right: 18px;
+}
+
+.image-planet {
+  margin-top: 32px;
+  width: 170px;
+  height: 170px;
+  margin-bottom: 26px;
+}
+
+.destinationMenu {
+  display: flex;
+  list-style: none;
+  width: 237.5px;
+  height: 28px;
+  justify-content: space-between;
+}
+
+.destinationMenu > li {
+  text-transform: uppercase;
+  font-family: "Barlow Condensed";
+  letter-spacing: 2.36pt;
+  font-size: 14;
+  font-weight: lighter;
+}
+
+.active-planet {
+  border-bottom: 3px solid #979797;
+}
