@@ -19,7 +19,7 @@ $(document).ready(function () {
       "fast"
     );
     $(".nav-menu-logo", this).toggle();
-    $(".btn-explorer-outer").toggleClass("btn-explorer-outer-pressed");
+    $(".btn-explorer-outer").toggleClass("z_null");
   });
 
   $(".btn-explorer").click(() => {
