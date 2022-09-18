@@ -56,9 +56,13 @@ body {
   font-family: "Barlow Condensed";
   letter-spacing: 2.36pt;
   font-size: 14;
+  line-height: 22px;
   font-weight: lighter;
 }
 
 .active-planet {
   border-bottom: 3px solid #979797;
+}
+
+.planetName {
 }
