@@ -3,6 +3,8 @@
 body {
   background-image: url("/assets/destination/background-destination-mobile.jpg");
   display: flex;
+
+  background-attachment: fixed;
   background-size: cover;
   flex-direction: column;
   align-items: center;
