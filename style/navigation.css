@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+#MenuBtn {
+  display: none;
+}
+
 .nav-line {
   position: absolute;
   margin-left: 112px;
@@ -138,6 +142,10 @@
 }
 
 @media screen and (max-width: 475px) {
+  #MenuBtn {
+    display: block;
+  }
+
   body {
     background-image: url("/assets/home/background-home-tablet.jpg");
     background-size: cover;

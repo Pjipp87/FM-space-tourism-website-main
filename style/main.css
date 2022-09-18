@@ -14,11 +14,6 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  z-index: 3;
-}
-
-#MenuBtn {
-  display: none;
 }
 
 .btn-explorer {
@@ -36,7 +31,6 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  z-index: 5;
 }
 
 .btn-explorer > p {
@@ -219,7 +213,7 @@
     margin-bottom: 48px;
     width: 200px;
     height: 200px;
-    z-index: 5;
+    z-index: initial;
   }
 
   .btn-explorer {
