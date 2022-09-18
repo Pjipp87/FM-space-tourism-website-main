@@ -18,8 +18,8 @@ $(document).ready(function () {
       },
       "fast"
     );
-    $(".nav-menu-logo", this).toggle();
     $(".btn-explorer-outer").toggleClass("z_null");
+    $(".nav-menu-logo", this).toggle();
   });
 
   $(".btn-explorer").click(() => {
