@@ -50,14 +50,14 @@ body {
   z-index: 10;
 }
 
-.destinationMenu > li {
-  display: block;
+.destinationMenuBtn {
   text-transform: uppercase;
   font-family: "Barlow Condensed";
   letter-spacing: 2.36pt;
   font-size: 14;
-  line-height: 22px;
+  padding-bottom: 8px;
   font-weight: lighter;
+  border-bottom: 3px solid transparent;
 }
 
 .active-planet {
