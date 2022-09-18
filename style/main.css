@@ -169,3 +169,50 @@
     height: 242px;
   }
 }
+
+/* TODO: Mobile */
+
+@media screen and (max-width: 425px) {
+  body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-heading-main {
+    position: initial;
+    margin-top: 112px;
+    width: 327px;
+    height: 276px;
+    text-align: center;
+  }
+
+  .container-heading-main > h1 {
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  .container-heading-main > h5 {
+    font-size: 16px;
+    letter-spacing: 2.7pt;
+  }
+
+  .container-heading-main > p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .btn-explorer-outer {
+    position: initial;
+    pointer-events: none;
+    margin-top: 131px;
+    margin-bottom: 48px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .btn-explorer {
+    width: 150px;
+    height: 150px;
+  }
+}

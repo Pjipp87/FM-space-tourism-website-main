@@ -175,14 +175,71 @@
   }
 }
 
+/* TODO: Mobile */
+
 @media screen and (max-width: 425px) {
   body {
     background-image: url("/assets/home/background-home-mobile.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+  }
+
+  .container-navigation {
+    position: absolute;
+    display: block;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    z-index: 4;
+  }
+
+  .Nav-logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 24px;
+    top: 24px;
+  }
+
+  .nav-menu-logo {
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    top: 33px;
+    right: 24px;
+    z-index: 10;
+  }
+
+  .container-links {
+    background-color: hsla(0, 0%, 100%, 0.1);
+    backdrop-filter: blur(50px);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 68%;
+    z-index: 5;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  .container-links > .links > li > a > span {
+    display: inline;
+    font-weight: bold;
+    margin-right: 14px;
+  }
+
+  .links {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: fit-content;
+    margin-top: 118px;
+    text-align: left;
+  }
+
+  .nav-element {
+    margin-left: 32px;
+    font-size: 16px;
+    margin-bottom: 32px;
+    border-bottom: 3px solid transparent;
   }
 }
-
-/* TODO: Mobile */
