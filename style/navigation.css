@@ -244,4 +244,9 @@
     margin-bottom: 32px;
     border-bottom: 3px solid transparent;
   }
+
+  .close {
+    width: 19px;
+    height: 19px;
+  }
 }

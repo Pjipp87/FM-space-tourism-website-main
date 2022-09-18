@@ -14,5 +14,6 @@ $(document).ready(function () {
       },
       "fast"
     );
+    $("img", this).toggle();
   });
 });
