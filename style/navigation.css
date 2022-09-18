@@ -209,6 +209,7 @@
   }
 
   .container-links {
+    display: none;
     overflow: hidden;
     background-color: hsla(0, 0%, 100%, 0.1);
     backdrop-filter: blur(50px);

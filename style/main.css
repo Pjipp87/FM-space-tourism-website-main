@@ -215,4 +215,9 @@
     width: 150px;
     height: 150px;
   }
+
+  .btn-explorer > p {
+    font-size: 20;
+    letter-spacing: 1.25pt;
+  }
 }
