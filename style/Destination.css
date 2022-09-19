@@ -124,7 +124,7 @@ body {
 
 /* TODO: Tablet */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
     background-image: url("/assets/destination/background-destination-tablet.jpg");
     display: flex;
@@ -163,6 +163,104 @@ body {
     height: 300px;
     margin-bottom: 53px;
   }
+
+  .destinationMenu {
+    width: 285.5px;
+    height: 34px;
+  }
+
+  .destinationMenuBtn {
+    letter-spacing: 2.7pt;
+    font-size: 16px;
+    padding-bottom: 8px;
+  }
+
+  .planetName {
+    margin-top: 32px;
+    width: 266px;
+    font-size: 80px;
+  }
+
+  .planetDescription {
+    margin-top: 8px;
+    width: 573px;
+    height: 84px;
+    font-size: 16px;
+    line-height: 28pt;
+  }
+
+  .planet-Data {
+    border-top: 1px solid #979797;
+    margin-top: 49px;
+    padding-top: 29px;
+    margin-bottom: 62px;
+    width: 573px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .planet-data-Heading {
+    font-size: 14px;
+    letter-spacing: 2.36pt;
+    color: #d0d6f9;
+  }
+
+  .planet-distance,
+  .planet-taveltime {
+    font-size: 28px;
+  }
+
+  .planet-Data-col {
+    margin-bottom: 0px;
+  }
+
+  .planet-Data-col:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url("/assets/destination/background-destination-desktop.jpg");
+    display: flex;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+    text-align: center;
+  }
+
+  .Container-destination-Main {
+    margin-top: 212px;
+    width: initial;
+  }
+
+  .Container-destination-Main > h3 {
+    font-family: "Barlow Condensed";
+    padding-left: 166.5px;
+    font-size: 28px;
+    width: 100%;
+    text-align: left;
+    letter-spacing: 4.72pt;
+  }
+
+  .Container-destination-Main > h3 > span {
+    font-family: "Barlow Condensed";
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.25);
+    margin-right: 28px;
+  }
+
+  .image-planet {
+    margin-top: 97px;
+    width: 445px;
+    height: 445px;
+    margin-left: 230px;
+  }
+
+  /* TODO: Hier Weiter */
 
   .destinationMenu {
     width: 285.5px;
