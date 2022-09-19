@@ -101,7 +101,7 @@ body {
 
 .planet-data-Heading {
   font-family: "Barlow Condensed";
-  font-size: 14;
+  font-size: 14px;
   letter-spacing: 2.36pt;
   margin-bottom: 12px;
   color: #d0d6f9;
@@ -193,6 +193,7 @@ body {
     border-top: 1px solid #979797;
     margin-top: 49px;
     padding-top: 29px;
+    margin-bottom: 62px;
     width: 573px;
     height: 90px;
     display: flex;
@@ -200,25 +201,21 @@ body {
   }
 
   .planet-data-Heading {
-    font-family: "Barlow Condensed";
-    font-size: 14;
+    font-size: 14px;
     letter-spacing: 2.36pt;
-    margin-bottom: 12px;
     color: #d0d6f9;
   }
 
   .planet-distance,
   .planet-taveltime {
-    font-family: "Bellefair";
     font-size: 28px;
-    text-transform: uppercase;
   }
 
   .planet-Data-col {
-    margin-bottom: 32px;
+    margin-bottom: 0px;
   }
 
   .planet-Data-col:last-child {
-    margin-bottom: 58px;
+    margin-bottom: 0px;
   }
 }
