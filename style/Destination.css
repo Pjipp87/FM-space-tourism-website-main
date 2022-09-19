@@ -83,7 +83,7 @@ body {
 .planetDescription {
   margin-top: 1px;
   width: 327px;
-
+  height: 125px;
   font-family: "Barlow";
   font-weight: normal;
   font-size: 15px;
@@ -95,7 +95,7 @@ body {
   background-color: #383b4b;
   width: 327px;
   height: 1px;
-  margin: 32px 0;
+  margin: 64px 0 32px 0;
 }
 
 .planet-data-Heading {
