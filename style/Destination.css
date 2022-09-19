@@ -260,8 +260,13 @@ body {
     margin-left: 230px;
   }
 
+  .Container-destination-Aside {
+    margin-top: 310px;
+    margin-left: 157px;
+    width: 445px;
+    height: 472px;
+  }
   /* TODO: Hier Weiter */
-
   .destinationMenu {
     width: 285.5px;
     height: 34px;
