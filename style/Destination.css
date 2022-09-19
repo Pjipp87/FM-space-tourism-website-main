@@ -3,13 +3,11 @@
 body {
   background-image: url("/assets/destination/background-destination-mobile.jpg");
   display: flex;
-
   background-attachment: fixed;
   background-size: cover;
   flex-direction: column;
   align-items: center;
   color: white;
-
   text-align: center;
 }
 
@@ -85,6 +83,7 @@ body {
 .planetDescription {
   margin-top: 1px;
   width: 327px;
+
   font-family: "Barlow";
   font-weight: normal;
   font-size: 15px;
@@ -120,4 +119,21 @@ body {
 
 .planet-Data-col:last-child {
   margin-bottom: 58px;
+}
+
+/* TODO: Tablet */
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("/assets/destination/background-destination-tablet.jpg");
+    display: flex;
+
+    background-attachment: fixed;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+    text-align: center;
+  }
 }
