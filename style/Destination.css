@@ -54,7 +54,7 @@ body {
   text-transform: uppercase;
   font-family: "Barlow Condensed";
   letter-spacing: 2.36pt;
-  font-size: 14;
+  font-size: 14px;
   padding-bottom: 8px;
   font-weight: lighter;
   border-bottom: 3px solid transparent;
@@ -89,13 +89,14 @@ body {
   font-size: 15px;
   line-height: 25pt;
   color: #d0d6f9;
+  margin-bottom: 32px;
 }
 
-.destination-line {
-  background-color: #383b4b;
+.planet-Data {
+  border-top: 1px solid #979797;
+  margin-top: 32px;
+  padding-top: 32px;
   width: 327px;
-  height: 1px;
-  margin: 64px 0 32px 0;
 }
 
 .planet-data-Heading {
@@ -127,13 +128,97 @@ body {
   body {
     background-image: url("/assets/destination/background-destination-tablet.jpg");
     display: flex;
-
     background-attachment: fixed;
     background-size: cover;
     flex-direction: column;
     align-items: center;
     color: white;
-
     text-align: center;
+  }
+
+  .Container-destination-Main {
+    margin-top: 136px;
+    width: 100%;
+  }
+
+  .Container-destination-Main > h3 {
+    font-family: "Barlow Condensed";
+    padding-left: 38.5px;
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    letter-spacing: 3.38pt;
+  }
+
+  .Container-destination-Main > h3 > span {
+    font-family: "Barlow Condensed";
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.25);
+    margin-right: 19px;
+  }
+
+  .image-planet {
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 53px;
+  }
+
+  .destinationMenu {
+    width: 285.5px;
+    height: 34px;
+  }
+
+  .destinationMenuBtn {
+    letter-spacing: 2.7pt;
+    font-size: 16px;
+    padding-bottom: 8px;
+  }
+
+  .planetName {
+    margin-top: 32px;
+    width: 266px;
+    font-size: 80px;
+  }
+
+  .planetDescription {
+    margin-top: 8px;
+    width: 573px;
+    height: 84px;
+    font-size: 16px;
+    line-height: 28pt;
+  }
+
+  .planet-Data {
+    border-top: 1px solid #979797;
+    margin-top: 49px;
+    padding-top: 29px;
+    width: 573px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .planet-data-Heading {
+    font-family: "Barlow Condensed";
+    font-size: 14;
+    letter-spacing: 2.36pt;
+    margin-bottom: 12px;
+    color: #d0d6f9;
+  }
+
+  .planet-distance,
+  .planet-taveltime {
+    font-family: "Bellefair";
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+
+  .planet-Data-col {
+    margin-bottom: 32px;
+  }
+
+  .planet-Data-col:last-child {
+    margin-bottom: 58px;
   }
 }
