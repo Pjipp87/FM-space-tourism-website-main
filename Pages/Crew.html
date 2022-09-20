@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/style/navigation.css" />
     <script src="/js/jquery-3.6.1.min.js"></script>
     <script src="/js/NavigationMobile.js"></script>
+    <script src="/js/Crew.js"></script>
     <title>Space Tourismus</title>
   </head>
   <body>
@@ -30,11 +31,11 @@
             <a href="index.html"><span>00</span>HOME</a>
           </li>
 
-          <li class="nav-element active">
+          <li class="nav-element">
             <a href="/Pages/Destination.html"> <span>01</span>DESTINATION </a>
           </li>
 
-          <li class="nav-element">
+          <li class="nav-element active">
             <a href="/Pages/Crew.html"><span>02</span>CREW</a>
           </li>
 
@@ -57,8 +58,30 @@
         />
       </div>
     </nav>
+    <h1 class="Crew-Heading"><span>02</span>Meet Your Crew</h1>
+    <main class="Container-Crew-Main">
+      <div class="ImageSlider">
+        <div class="crewImageContainer">
+          <img
+            class="crewMemberImage"
+            id="crewMemberImage"
+            src=""
+            alt="Crew Mitglied"
+          />
+        </div>
 
-    <main class="Container-Crew-Main"></main>
-    <aside class="Container-Crew-Aside"></aside>
+        <div class="slideMenu">
+          <div class="slideButton activeSlideButton"></div>
+          <div class="slideButton"></div>
+          <div class="slideButton"></div>
+          <div class="slideButton"></div>
+        </div>
+      </div>
+    </main>
+    <aside class="Container-Crew-Aside">
+      <h3 id="role" class="role"></h3>
+      <h2 id="crewName" class="crewName"></h2>
+      <p id="bio" class="bio"></p>
+    </aside>
   </body>
 </html>

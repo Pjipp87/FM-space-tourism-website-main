@@ -1,0 +1,112 @@
+body {
+  background-image: url("/assets/crew/background-crew-mobile.jpg");
+  display: flex;
+  background-attachment: fixed;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.Crew-Heading {
+  font-family: "Barlow Condensed";
+  font-weight: lighter;
+  margin: 88px 0 32px 0;
+  padding: 0;
+  margin-top: 88px;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 2.7pt;
+}
+
+.Crew-Heading > span {
+  font-family: "Barlow Condensed";
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.25);
+  margin-right: 16px;
+}
+
+.Container-Crew-Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.crewImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 327px;
+  border-bottom: 1px solid #979797;
+}
+
+.crewMemberImage {
+  height: 223px;
+}
+
+.ImageSlider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slideMenu {
+  margin-top: 32px;
+  height: 10px;
+  width: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slideButton {
+  background-color: rgba(255, 255, 255, 0.17);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.slideButton:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.activeSlideButton {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.Container-Crew-Aside {
+  width: 327px;
+  margin: 32px 0 0px 0;
+}
+
+.role {
+  margin-bottom: 8px;
+  font-family: "Bellefair";
+  font-size: 16px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+
+.crewName {
+  color: #ffffff;
+  font-family: "Bellefair";
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.bio {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Barlow";
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: lighter;
+}
