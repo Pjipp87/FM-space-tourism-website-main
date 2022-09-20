@@ -59,6 +59,8 @@ body {
   width: 88px;
   display: flex;
   justify-content: space-between;
+  isolation: isolate;
+  z-index: 10;
 }
 
 .slideButton {
@@ -70,10 +72,6 @@ body {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-}
-
-.slideButton:hover {
-  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .activeSlideButton {

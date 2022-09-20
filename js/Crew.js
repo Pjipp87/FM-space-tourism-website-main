@@ -44,4 +44,17 @@ $(document).ready(() => {
   $("#role").text(crew.role);
   $("#crewName").text(crew.name);
   $("#bio").text(crew.bio);
+
+  $(".slideButton").click(function () {
+    $(".slideButton").removeClass(" activeSlideButton");
+    crew = CrewArr[$(this).attr("data") - 1];
+    $(this).addClass(" activeSlideButton");
+    $("#crewMemberImage, #role, #crewName, #bio").fadeOut("fast", () => {
+      $("#crewMemberImage").attr("src", crew.images.webp);
+      $("#role").text(crew.role);
+      $("#crewName").text(crew.name);
+      $("#bio").text(crew.bio);
+    });
+    $("#crewMemberImage, #role, #crewName, #bio").fadeIn("fast");
+  });
 });
