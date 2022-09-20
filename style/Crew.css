@@ -108,7 +108,7 @@ body {
   font-weight: lighter;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .Crew-Heading {
     text-align: left;
     width: 100%;
