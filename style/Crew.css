@@ -228,3 +228,64 @@ body {
     height: 572px;
   }
 }
+
+/* TODO: Monitor */
+
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+  .Crew-Heading {
+    text-align: left;
+    width: 100%;
+    margin: 136px 0 60px 0;
+    padding-left: 38.5px;
+    font-size: 20px;
+    letter-spacing: 3.38pt;
+  }
+
+  .Crew-Container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .Container-Crew-Aside {
+    width: 100%;
+    margin: 0 0 40px 0;
+  }
+
+  .role {
+    font-size: 24px;
+  }
+
+  .crewName {
+    font-size: 40px;
+  }
+
+  .bio {
+    margin-top: 16px;
+    width: 458px;
+    font-size: 16px;
+  }
+
+  .ImageSlider {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .slideMenu {
+    margin: 0 0 40px 0;
+  }
+
+  .crewImageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #979797;
+  }
+
+  .crewMemberImage {
+    height: 572px;
+  }
+}
