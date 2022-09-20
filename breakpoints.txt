@@ -1,0 +1,13 @@
+/* Smartphones (portrait) ----------- */
+
+/* Ipad2 (portrait) ----------- */
+@media only screen and (min-width : 768px){...}
+
+/* Ipad2 (paysage) ----------- */
+@media only screen and (min-width : 1024px){...}
+
+/* Ordi (Petit) ----------- */
+@media only screen and (min-width : 1224px){...}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1824px){...}
