@@ -52,6 +52,13 @@ body {
   align-items: center;
 }
 
+.sliderContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
 .slideMenu {
   margin-top: 32px;
   height: 10px;
@@ -79,7 +86,7 @@ body {
 
 .Container-Crew-Aside {
   width: 327px;
-  margin: 32px 0 0px 0;
+  margin: 0;
 }
 
 .role {
@@ -124,9 +131,18 @@ body {
     flex-direction: column-reverse;
   }
 
-  .Container-Crew-Aside {
+  .sliderContainer {
     width: 100%;
-    margin: 0 0 40px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px 0 40px 0;
+  }
+
+  .Container-Crew-Aside {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0;
   }
 
   .role {
@@ -147,10 +163,6 @@ body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-  }
-
-  .slideMenu {
-    margin: 0 0 40px 0;
   }
 
   .crewImageContainer {
@@ -230,39 +242,77 @@ body {
 }
 
 /* TODO: Monitor */
+/* TODO: Das Slider-Menü muss aus dem Conteiner Div Raus! */
 
 @media only screen and (min-width: 1024px) and (orientation: landscape) {
+  body {
+    background-image: url("/assets/crew/background-crew-desktop.jpg");
+    backdrop-filter: blur(10px);
+    display: flex;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+
   .Crew-Heading {
+    position: absolute;
     text-align: left;
-    width: 100%;
-    margin: 136px 0 60px 0;
-    padding-left: 38.5px;
-    font-size: 20px;
-    letter-spacing: 3.38pt;
+    width: fit-content;
+    padding-left: 166.5px;
+    align-self: flex-start;
+    margin: 212px 0 154px 0;
+    font-size: 28px;
+    letter-spacing: 4.72pt;
   }
 
   .Crew-Container {
     display: flex;
+    width: 100%;
+    margin-top: 198px;
     flex-direction: row-reverse;
   }
 
+  .Container-Crew-Main {
+    justify-content: flex-end;
+  }
+
   .Container-Crew-Aside {
-    width: 100%;
-    margin: 0 0 40px 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    margin: 0;
   }
 
   .role {
-    font-size: 24px;
+    font-size: 32px;
   }
 
   .crewName {
-    font-size: 40px;
+    font-size: 56px;
   }
 
   .bio {
-    margin-top: 16px;
-    width: 458px;
-    font-size: 16px;
+    margin-top: 27px;
+    width: 444px;
+    height: 160px;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+  }
+
+  .crewInfo {
+    text-align: left;
+    padding-left: 165.5px;
+    margin-top: 202px;
+  }
+  .sliderContainer {
+    padding-left: 165.5px;
+    justify-content: flex-start;
+    margin-top: 88px;
+    width: 100%;
   }
 
   .ImageSlider {
@@ -277,15 +327,19 @@ body {
 
   .crewImageContainer {
     display: flex;
+    float: right;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: max-content;
     overflow: hidden;
-    border-bottom: 1px solid #979797;
+    padding-right: 137px;
+    border-bottom: initial;
+    margin-bottom: -10px;
   }
 
   .crewMemberImage {
-    height: 572px;
+    contain: content;
+    height: 100%;
   }
 }
