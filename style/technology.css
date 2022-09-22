@@ -8,7 +8,7 @@ body {
 }
 
 .technology_heading {
-  margin-top: 88px;
+  margin: 88px 0 32px 0;
   font-family: "Barlow Condensed";
   font-weight: lighter;
   letter-spacing: 2.7pt;
@@ -20,4 +20,102 @@ body {
   font-weight: bold;
   color: rgba(255, 255, 255, 0.25);
   padding-right: 16px;
+}
+
+.container-technology {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.Container-technology-Aside {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 34px;
+}
+
+.Container-technology-Main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.container_technology_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 152px;
+  height: 40px;
+  margin-bottom: 26px;
+}
+
+.technology_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.technology_btn-active {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: #0b0d17;
+}
+
+.technology_btn-active,
+.technology_btn > span {
+  font-size: 16px;
+  font-family: "Bellefair";
+}
+
+.technology_intro {
+  font-size: 14px;
+  letter-spacing: 2.36px;
+  margin: 0 0 9px 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Barlow Condensed";
+  color: #d0d6f9;
+  font-weight: lighter;
+}
+
+.technology_heading_content {
+  font-size: 24px;
+  font-family: "Bellefair";
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+
+.technology_text {
+  width: 327px;
+  height: 175px;
+  font-family: "Barlow";
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 15pt;
+  text-align: center;
+  color: #d0d6f9;
 }
