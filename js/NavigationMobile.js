@@ -18,8 +18,9 @@ $(document).ready(function () {
       },
       "fast"
     );
-    $(".destinationMenu").toggleClass("z_null");
-    $(".btn-explorer-outer").toggleClass("z_null");
+    $(".destinationMenu").toggleClass(" z_null");
+    $(".btn-explorer-outer").toggleClass(" z_null");
+    $(".container_technology_menu").toggleClass(" z_null");
     $(".slideMenu").toggleClass("z_null");
     $(".nav-menu-logo", this).toggle();
   });
