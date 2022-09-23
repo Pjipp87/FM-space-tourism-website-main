@@ -30,7 +30,12 @@ const technologyArr = [
 
 $(document).ready(() => {
   var technology = technologyArr[0];
-  $("#technology_image").attr("src", technology.images.portrait);
+  if (screen.width >= 1024) {
+    $("#technology_image").attr("src", technology.images.portrait);
+  } else {
+    $("#technology_image").attr("src", technology.images.landscape);
+  }
+
   $("#technology_heading_content").text(technology.name);
   $("#technology_text").text(technology.description);
 
@@ -38,7 +43,11 @@ $(document).ready(() => {
     $(".technology_btn").removeClass(" technology_btn-active");
     technology = technologyArr[$(this).attr("data-id")];
     $(this).addClass(" technology_btn-active");
-    $("#technology_image").attr("src", technology.images.portrait);
+    if (screen.width >= 1024) {
+      $("#technology_image").attr("src", technology.images.portrait);
+    } else {
+      $("#technology_image").attr("src", technology.images.landscape);
+    }
     $("#technology_heading_content").text(technology.name);
     $("#technology_text").text(technology.description);
   });

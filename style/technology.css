@@ -22,10 +22,6 @@ body {
   padding-right: 16px;
 }
 
-.technology_image {
-  margin-bottom: -10%;
-}
-
 .container-technology {
   display: flex;
   flex-direction: column-reverse;
@@ -185,5 +181,92 @@ body {
     width: 458px;
     height: 140px;
     line-height: 28pt;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url("/assets/technology/background-technology-desktop.jpg");
+  }
+
+  .technology_heading {
+    margin: 212px 0 26px 0;
+    padding-left: 166.5px;
+    letter-spacing: 4.72pt;
+    font-size: 28px;
+  }
+
+  .container-technology {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .technology_image {
+    height: 527px;
+    width: 515px;
+  }
+
+  .Container-technology-Aside {
+    width: 515px;
+    height: 527px;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+  }
+
+  .Container-technology-Main {
+    flex-direction: row;
+    height: fit-content;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container_technology_menu {
+    flex-direction: column;
+
+    width: 80px;
+    height: 304px;
+    margin: 0 90px 0 0;
+    padding-left: 165px;
+    padding-right: 80px;
+  }
+
+  .technology_btn {
+    width: 80px;
+    height: 80px;
+  }
+
+  .technology_btn-active,
+  .technology_btn > span {
+    font-size: 32px;
+    letter-spacing: 2pt;
+  }
+
+  .container_technology_info {
+    height: fit-content;
+  }
+
+  .technology_intro {
+    text-align: left;
+    margin: 0 0 11px 0;
+  }
+
+  .technology_heading_content {
+    font-size: 56px;
+    text-align: left;
+    margin-bottom: 17px;
+  }
+
+  .technology_text {
+    width: 444px;
+    height: 192px;
+    font-size: 18px;
+    line-height: 32pt;
+    text-align: left;
   }
 }
