@@ -125,6 +125,8 @@ body {
 @media screen and (min-width: 758px) {
   body {
     background-image: url("/assets/technology/background-technology-tablet.jpg");
+    background-size: cover;
+    background-attachment: fixed;
   }
 
   .technology_heading {
