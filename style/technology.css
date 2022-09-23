@@ -203,6 +203,7 @@ body {
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 50px;
   }
 
   .technology_image {
@@ -221,7 +222,7 @@ body {
   .Container-technology-Main {
     flex-direction: row;
     height: fit-content;
-    width: 50%;
+    width: fit-content;
     margin: 0;
     padding: 0;
   }
@@ -268,5 +269,10 @@ body {
     font-size: 18px;
     line-height: 32pt;
     text-align: left;
+  }
+
+  .technology_btn:hover {
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 1);
   }
 }
