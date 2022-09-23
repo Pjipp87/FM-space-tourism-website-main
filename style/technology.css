@@ -1,6 +1,7 @@
 body {
   background-image: url("/assets/technology/background-technology-mobile.jpg");
   background-attachment: fixed;
+  background-size: cover;
   color: white;
   flex-direction: column;
   display: flex;
@@ -125,7 +126,6 @@ body {
 @media screen and (min-width: 758px) {
   body {
     background-image: url("/assets/technology/background-technology-tablet.jpg");
-    background-size: cover;
     background-attachment: fixed;
   }
 
